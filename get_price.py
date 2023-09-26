@@ -25,4 +25,4 @@ items = response_dict['response']['body']['items']['item']
 # Convert the item list to a pandas DataFrame
 df = pd.DataFrame(items)
 
-print(df.head()
+print(df.head())

@@ -2,13 +2,13 @@ import requests
 import xmltodict
 import pandas as pd
 import matplotlib.pyplot as plt
+import koreanize_matplotlib
 import seaborn as sns
 import matplotlib.font_manager as fm
 from matplotlib import rc
 from sklearn.linear_model import LinearRegression
 import os
 
-fm._rebuild()
 rc('font', family='NanumGothic')
 
 url = 'http://openapi.molit.go.kr/OpenAPI_ToolInstallPackage/service/rest/RTMSOBJSvc/getRTMSDataSvcAptTradeDev'
